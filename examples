@@ -1,0 +1,59 @@
+%%Presentation sentences
+
+check_sentence([what,is,the,capital,of,portugal], R1).
+check_sentence([what,about,turkey], R2).
+check_sentence([what,is,the,language,of,portugal,and,turkey], R3).
+check_sentence([what,are,the,rivers,in,portugal], R4).
+check_sentence([what,about,in,turkey], R5).
+check_sentence([what,about,in,spain], R6).
+check_sentence([which,are,the,european,rivers], R7).
+check_sentence([howmany,are,they], R8).
+check_sentence([what,about,spanish], R9).
+check_sentence([what,is,it], R10).
+check_sentence([howmany,are,the,european,countries], R11).
+check_sentence([which,are,the,european,and,asian,countries], R12).
+check_sentence([howmany,are,the,european,cities], R13).
+check_sentence([which,are,they], R14).
+check_sentence([what,are,the,european,capitals], R15).
+check_sentence([what,are,the,european,rivers], R16).
+check_sentence([what,about,turkish], R17).
+check_sentence([which,are,the,spanish,and,portuguese,rivers], R18).
+check_sentence([which,european,countries,have,less,than,100000000,people], R19).
+check_sentence([howmany,are,they], R20).
+check_sentence([which,european,countries,have,between,11000000,and,60000000,people], R21).
+check_sentence([which,european,and,asian,countries,have,more,than,50000000,people], R22).
+check_sentence([what,about,less,than,60000000], R23).
+check_sentence([howmany,european,countries,have,more,than,1,river], R24).
+check_sentence([which,are,they], R25).
+check_sentence([is,turkey,a,city,in,europe], R26).
+
+%%Yes/no
+
+check_sentence([is,africa,a,continent],R26).
+check_sentence([is,douro,a,city],R27).
+check_sentence([is,portugal,in,europe],R28).
+check_sentence([what,about,spain],R29).
+check_sentence([is,portugal,a,continent],R30).
+check_sentence([is,douro,a,river],R31).
+check_sentence([is,douro,in,oporto],R32).
+check_sentence([is,douro,a,river,in,oporto],R33).
+check_sentence([is,douro,a,river,in,portugal],R34).
+check_sentence([what,about,tagus],R35).
+check_sentence([does,europe,have,3,countries],R36).
+check_sentence([which,european,countries,have,more,than,1000,people],R37).
+check_sentence([does,portugal,have,2,rivers],R39).
+check_sentence([does,turkey,have,more,than,100000,people],R40).
+
+%%Affirmative
+
+check_sentence([the,language,of,turkey,is,turkish], R41).
+check_sentence([turkey,is,not,a,continent], R43).
+check_sentence([lisbon,is,the,capital,of,portugal], R44).
+check_sentence([ankara,is,a,capital,and,a,city], R45).
+check_sentence([turkey,has,more,than,10000,and,less,than,400000,people], R46).
+check_sentence([turkey,is,a,continent], R47).
+check_sentence([douro,is,a,city,in,portugal], R47).
+check_sentence([turkey,has,more,people,than,portugal], R48).
+check_sentence([turkey,has,not,more,rivers,than,portugal], R49).
+check_sentence([portugal,and,turkey,and,spain,are,countries], R50).
+
